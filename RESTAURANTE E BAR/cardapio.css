@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Tiny5&display=swap");
+
+body { 
+    background-color: #ecd9b4;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.container { 
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #ecd9b4;
+    width: 100%;
+    padding: 50px;
+    position: fixed;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.menu {
+    width: 310%;
+}    
+
+.menu nav a{
+    color: #000000;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 28px;
+    position: relative;
+}
+
+.imgtest {
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    margin-left: 0%;
+}
+
+.imgtest img {
+    border: 5px solid rgb(14, 13, 13); /* Adiciona borda preta de 3px */
+    border-radius: 20%; /* Adiciona bordas arredondadas */
+}
+
+.main_footer_content {
+    padding: 3em 0em;
+}
+
+.main_footer_copy {
+    margin: 0;
+    background-color: rgb(8, 8, 8); 
+    justify-content: flex-end; 
+    width: 100%;
+    float: right;
+    text-align: center; 
+    padding: 1.2em 0em;
+}
+
+.main_footer_copy p {
+    font-family: 'open_sanslight';
+    font-size: 1.3em;
+    color: #e1e1e1;
+    height: 20px;
+}
+
+.main_footer_copy .m-b-footer {
+    margin-bottom: 0.5em;
+}
+
+.main_footer_copy .by {
+    font-size: 0.96em;
+}
+
